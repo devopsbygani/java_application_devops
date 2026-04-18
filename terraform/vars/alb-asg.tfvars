@@ -54,7 +54,7 @@ listener_protocol = "HTTP"
 listener_type     = "forward"
 
 #launch_template
-ami_id               = "ami-0ead1f48e0c4a1883"
+ami_id               = "ami-00604e6fd0b0803ec" # change with you ami id's
 instance_type        = "t2.medium"
 key_name             = "ubuntu"
 user_data            = <<-EOF
