@@ -45,7 +45,7 @@ resource "aws_launch_template" "petclinic_lt" {
   name_prefix   = "${var.environment}-${var.application}-petclinic-lt"
   image_id      = var.ami_id
   instance_type = var.instance_type
-  # key_name      = var.key_name
+  key_name      = var.key_name
 
   iam_instance_profile {
     name = "${var.environment}-${var.application}-instance_profile"

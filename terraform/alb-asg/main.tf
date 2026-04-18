@@ -47,7 +47,7 @@ module "alb-asg" {
   listener_type                    = var.listener_type
   ami_id                           = var.ami_id
   instance_type                    = var.instance_type
-  # key_name                         = var.key_name
+  key_name                         = var.key_name
   user_data                        = var.user_data
   instance_warmup_time             = var.instance_warmup_time
   target_value                     = var.target_value

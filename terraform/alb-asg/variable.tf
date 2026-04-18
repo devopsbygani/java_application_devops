@@ -67,9 +67,9 @@ variable "instance_type" {
   description = "The type of EC2 instance to use for the ASG."
 }
 
-# variable "key_name" {
-#   description = "The name of the EC2 key pair to use for the instances."
-# }
+variable "key_name" {
+  description = "The name of the EC2 key pair to use for the instances."
+}
 
 variable "vpc_id" {
   description = "The ID of the VPC to use for the resources."
